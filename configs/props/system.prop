@@ -16,6 +16,7 @@ ro.charger.enable_suspend=true
 debug.cpurend.vsync=false
 
 # Display
+debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_hwc_vds=1
 debug.sf.auto_latch_unsignaled=true
 
