@@ -36,6 +36,7 @@
 
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">false</bool>
+    <bool name="config_disableStatusBarBurnInProtection">true</bool>
 
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
