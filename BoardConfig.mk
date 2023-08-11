@@ -111,6 +111,7 @@ BOARD_KERNEL_CMDLINE += \
     androidboot.fstab_suffix=qcom \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
+    androidboot.selinux=permissive \
     androidboot.usbcontroller=4e00000.dwc3 \
     loop.max_part=7 \
     lpm_levels.sleep_disabled=1 \
