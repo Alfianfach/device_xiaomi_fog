@@ -467,10 +467,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
-# Servicetracker
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2.vendor
-
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
