@@ -126,3 +126,6 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.GRALLOC=S
 persist.log.tag.gralloc4=S
+
+# DroidX Maintainer
+ro.droidx.maintainer=alternoegraha
