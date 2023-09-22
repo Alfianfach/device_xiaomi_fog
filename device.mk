@@ -31,11 +31,6 @@ PRODUCT_PACKAGES += \
 # API Level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# ART Debugging (Disable)
-USE_DEX2OAT_DEBUG := false
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -360,10 +355,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
-# Preopted ODEX files (system_other)
-PRODUCT_PACKAGES += \
-    cppreopts.sh
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
@@ -442,16 +433,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/bootctrl \
     hardware/xiaomi
-
-# Speed profile services and wifi-service to reduce RAM and storage
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
-WITH_DEXPREOPT_DEBUG_INFO := false
-DONT_DEXPREOPT_PREBUILTS := true
-
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    SystemUI
 
 # Update engine
 PRODUCT_PACKAGES += \
