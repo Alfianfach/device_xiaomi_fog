@@ -120,7 +120,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
+    <hal format="aidl" optional="true">
         <name>android.hardware.wifi</name>
         <interface>
             <name>IWifi</name>
