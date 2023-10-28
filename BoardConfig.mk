@@ -120,13 +120,12 @@ BOARD_KERNEL_CMDLINE += \
     cgroup_disable=pressure
 
 # Kernel headers
-TARGET_KERNEL_CONFIG := vendor/bengal_defconfig
+TARGET_KERNEL_CONFIG := vendor/fog_defconfig
 TARGET_KERNEL_HEADERS := kernel/xiaomi/fog
 TARGET_KERNEL_SOURCE := kernel/xiaomi/fog
 TARGET_KERNEL_VERSION := 4.19
 
-# Kernel prebuilt
-TARGET_FORCE_PREBUILT_KERNEL := true
+# DTBO prebuilt
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)-kernel/dtb.img
 
