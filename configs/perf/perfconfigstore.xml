@@ -37,7 +37,6 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.trim_empty_percent" Value="100" />
                 <Prop Name="ro.vendor.qti.sys.fw.trim_cache_percent" Value="100" />
                 <Prop Name="ro.vendor.qti.sys.fw.trim_enable_memory" Value="4294967296" />
-                <Prop Name="vendor.perf.performancemode.support" Value="true" />
                 <Prop Name="vendor.perf.gestureflingboost.enable" Value="true" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="ro.lmk.enable_watermark_check" Value="true" />
